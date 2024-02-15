@@ -1,0 +1,47 @@
+.board {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  
+  .board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: lightblue;
+  }
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.msg {
+    padding: 1em;
+  }
+  
+  .msg.ok {
+    color: white;
+    background-color: green;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .msg.err {
+    color: white;
+    background-color: tomato;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  #btn{
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: lightblue;
+    font-weight: bold;
+  }
